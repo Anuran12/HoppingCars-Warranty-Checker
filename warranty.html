@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Warranty Details</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <div class="logo">
+          <img
+            src="img/hopping_Cars_Logo.png"
+            alt="HoppingCars Logo"
+            class="logo-img"
+          />
+        </div>
+      </header>
+      <main id="warranty-details">
+        <div class="customer-info">
+          <div class="profile-image">
+            <img id="profile-image" src="" alt="Profile" />
+          </div>
+          <div class="customer-details">
+            <h2 id="customerName"></h2>
+            <p>
+              <span id="vehicleModel" class="vehicle-model"></span>
+              <br />
+              <span id="vehicleNumber" class="vehicle-number"></span>
+            </p>
+          </div>
+        </div>
+
+        <div class="service-details">
+          <div class="detail-row">
+            <span class="label">Service Name - </span>
+            <span id="serviceName" class="value"></span>
+          </div>
+          <div class="detail-row">
+            <span class="label">Service Place- </span>
+            <span id="servicePlace" class="value"></span>
+          </div>
+          <div class="detail-row">
+            <span class="label">Service Date - </span>
+            <span id="serviceDate" class="value"></span>
+          </div>
+          <div class="detail-row">
+            <span class="label">Product Name - </span>
+            <span id="productName" class="value"></span>
+          </div>
+          <div class="detail-row">
+            <span class="label">Product Id - </span>
+            <span id="productId" class="value"></span>
+          </div>
+          <div class="detail-row">
+            <span class="label">Invoice Number - </span>
+            <span id="invoiceNumber" class="value"></span>
+          </div>
+          <div class="detail-row">
+            <span class="label">Warranty Till - </span>
+            <span id="warrantyTill" class="value"></span>
+          </div>
+          <img src="img/warranty.png" alt="Warranty" class="warranty-badge" />
+        </div>
+
+        <div class="service-images" id="service-images"></div>
+      </main>
+    </div>
+    <script src="warranty.js"></script>
+  </body>
+</html>
