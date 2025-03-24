@@ -10,12 +10,11 @@ body {
   background-color: #121212;
   color: white;
   min-height: 100vh;
+  width: 100%;
 }
 
 .container {
-  max-width: 450px;
-  margin: 0 auto;
-  padding: 12px;
+  padding: 24px;
   width: 100%;
 }
 
@@ -32,12 +31,12 @@ header {
   font-size: 24px;
   font-weight: bold;
   display: flex;
-  justify-content: start;
+  justify-content: center;
 }
 
 .logo-img {
   height: auto;
-  max-height: 30px;
+  max-height: 40px;
   max-width: 100%;
   display: block;
 }
@@ -83,6 +82,8 @@ h1 {
 
 .warranty-container {
   padding: 15px 25px;
+  max-width: 500px;
+  margin: 0 auto;
 }
 
 .form-container {
@@ -200,6 +201,7 @@ input[type="text"] {
 .value {
   color: #ddd;
   word-break: break-word;
+  font-size: 16px;
 }
 
 .warranty-badge {
@@ -215,7 +217,7 @@ input[type="text"] {
 .service-images {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 15px;
+  gap: 25px;
   margin-top: 20px;
 }
 
@@ -260,6 +262,13 @@ input[type="text"] {
   .service-details {
     padding: 12px 10px;
   }
+  .service-images {
+    gap: 15px;
+  }
+
+  .value {
+    font-size: 14px;
+  }
 
   .detail-row {
     padding: 6px 0;
@@ -293,6 +302,10 @@ input[type="text"] {
   .vehicle-model,
   .vehicle-number {
     font-size: 15px;
+  }
+
+  .value {
+    font-size: 12px;
   }
 
   /* .detail-row {
